@@ -1,0 +1,26 @@
+{
+  "name": "func-log",
+  "version": "1.0.0",
+  "description": "Why does this log things twice?",
+  "main": "why-log-twice.js",
+  "scripts": {
+    "test": "node why-log-twice.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gskapka/func-log.git"
+  },
+  "keywords": [
+    "bleurgh"
+  ],
+  "author": "Greg Kapka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gskapka/func-log/issues"
+  },
+  "homepage": "https://github.com/gskapka/func-log#readme",
+  "dependencies": {
+    "data.task": "^3.1.1",
+    "ramda": "^0.25.0"
+  }
+}
