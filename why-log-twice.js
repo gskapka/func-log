@@ -7,7 +7,7 @@ const PROC_ONE_PATH = `node child-proc "Proc 1 log # "`
 const PROC_TWO_PATH = `node child-proc "Proc 2 log # "`
 
 //    rmAllListeners :: childProc -> childProc           
-const rmAllListeners = proc => (proc.removeAllListeners(), proc.stdout.unref())
+const rmAllListeners = proc => (proc.stdout.removeAllListeners(), proc.stdout.unref())
 
 //    procIsReady :: string -> bool
 const procIsReady = str => str.includes('5')
